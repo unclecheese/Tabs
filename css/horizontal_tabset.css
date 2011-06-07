@@ -1,0 +1,60 @@
+
+div.tabNavigation { padding:5px 0 0 0px; background:transparent; border-bottom:1px solid #aaa; }
+div.tabNavigation ul.navigation, #tabs ul.navigation li { margin:0; list-style:none; }
+div.tabNavigation ul.navigation { background:transparent; padding:0; }
+div.tabNavigation ul.navigation li { float:left; margin:0 0 -1px; font-size:12px; }
+div.tabNavigation ul.navigation li a { text-decoration:none; outline:0; display:block; float:left; padding:3px 10px; background:#aaa; margin:5px 5px 0 0; color:#fff; border:1px solid #aaa; }
+div.tabNavigation ul.navigation li a:hover { background:#bbb; text-decoration:none; }
+div.tabNavigation ul.navigation li a.selected { background:#fff; color:#777; border-color:#aaa; border-bottom-color:#fff; }
+.horizontal_tabs {padding-top:10px;}
+
+
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+
+/*UL.tabNavigation {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+UL.tabNavigation LI {
+  display: inline;
+margin-left:5px;
+margin-top:5px;
+}
+
+UL.tabNavigation LI A {
+  padding: 1px 5px;
+  background-color: #ddd;
+  color: #999;
+  text-decoration: none;
+font-size:12px;
+}
+
+UL.tabNavigation LI A.selected {
+  background-color: #f7f7f7;
+  color: #666;
+  padding-top: 7px;
+}
+
+UL.tabNavigation LI A:focus {
+      outline: 0;
+}
+
+div.tabs > div {
+      padding: 5px;
+      margin-top: 0px;
+      border: 1px solid #aaa;
+
+}
+
+div.tabs > div h2 {
+      margin-top: 0;
+}
+*/

@@ -1,0 +1,24 @@
+h4.vtab_button {
+	background:url(../images/bgToggleClosed.png) repeat-x;
+	height:18px;
+	padding:3px 3px 3px 3px;
+	margin:3px 3px 0px 3px;
+	border:#999 solid 1px;
+}
+h4.vtab_button a {
+	background:url(../images/imgToggleOpen.png) no-repeat top left;
+	height: 18px;
+	line-height: 18px;
+	padding-left:13px;
+	display:block;
+	text-decoration:none;
+	font-size: 11px;
+	color: #555; 
+}
+h4.vtab_button a.open {	
+	background:url(../images/imgToggleClosed.png) no-repeat top left;
+}
+.vtab {
+	padding:13px;
+	margin:20px 3px 3px 3px;
+}
