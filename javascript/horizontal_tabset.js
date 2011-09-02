@@ -5,7 +5,7 @@
       var tabContainers = $('div.horizontal_tabs > div', this);
       tabContainers.hide().filter(':first').show();
       
-      $('div.tabNavigation ul.navigation a').click(function () {
+      $('div.tabNavigation ul.navigation a').not('div.UploadifyField a').click(function () {
           tabContainers.hide();
           tabContainers.filter(this.hash).show();
           $('div.tabNavigation ul.navigation a').removeClass('selected');
