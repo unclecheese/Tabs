@@ -13,6 +13,7 @@
           return false;
       });
       
+
       $('div.tabNav ul.navi a:first').click();
 
     });
