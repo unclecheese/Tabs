@@ -41,7 +41,7 @@ class HorizontalTabSet extends CompositeField
 	
 	public function FieldHolder() {
 		Requirements::javascript(THIRDPARTY_DIR."/jquery/jquery.js");
-		Requirements::javascript(THIRDPARTY_DIR."/jquery/jquery-livequery/jquery.livequery.js");		
+		Requirements::javascript(THIRDPARTY_DIR."/jquery-livequery/jquery.livequery.js");		
 		Requirements::javascript("tabs/javascript/horizontal_tabset.js");
 		Requirements::css("tabs/css/horizontal_tabset.css");
 		return $this->renderWith("HorizontalTabSetFieldHolder");
